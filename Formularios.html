@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h2>Datos</h2>
+    <form action="">
+        <label for="nombre">Nombre :</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre :" maxlength="10" size="30" required>
+        <!-- readonly para que no puedan editar el input,  y disabled para deshabilitar-->
+        <!--Se puede usar value = "" pero el texto que se le ingrese apareceria predeterminado y tocaria borrarlo-->
+        <br>
+        <label for="correo">Correo :</label>
+        <input type="email" name="correo" id="" placeholder="Correo :">
+        <br>
+        <textarea name="" placeholder="Mensaje" id="" cols="30" rows="10"></textarea>
+        <br>
+        <label for="pais">Pais</label>
+        <select name="pais" id="pais">
+            <option value="mexico">Mexico</option>
+            <option value="colombia">Colombia</option>
+        </select>
+        <br>
+        <label for="hombre">Hombre</label>
+        <input type="radio" name="genero" id="hombre" value="hombre">
+        <label for="mujer">Mujer</label>
+        <input type="radio" name="genero" id="mujer" value="mujer">
+        <br>
+        <input type="checkbox" name="terminos" id="terminos">Terminos y condiciones
+        <br>
+        <input type="password" name="" id="" placeholder="Contraseña :"">
+        <input type="color" name="" id="">
+        <input type="number" name="" id="" min="5" max="100">
+        <input type="range" name="" id="" min="0" max="10">
+        <input type="url" name="" id="" placeholder="http://">
+        <input type="submit" name="" id="" value="Enviar">
+    </form>
+</body>
+</html>
