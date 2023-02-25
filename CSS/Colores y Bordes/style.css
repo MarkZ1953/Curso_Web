@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+}
+
+/* 
+Tipos de bordes : 
+
+- Solid
+- Dashed
+- Double
+- Dotted
+
+*/
+
+.rojo {
+    /* background-color: firebrick; */
+    border: 10px solid firebrick;
+}
+
+.rosa {
+    /* background-color: hotpink; */
+    border: 10px double hotpink;
+}
+
+.amarillo {
+    /* background-color: gold; */
+    border: 10px dashed gold;
+}
+
+.violeta {
+    /* background-color: blueviolet; */
+    border: 10px dotted blueviolet;
+}
+
+.azul {
+    /* background-color: turquoise; */
+    border: 10px inset turquoise;
+}
