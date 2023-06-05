@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #f72585;
+    margin: 15px;
+}
+
+h2 {
+    color: #3f37c9;
+}
+
+p {
+    color: #457b9d;
+}
+
+.personalizada {
+    text-align: center;
+    border: 10px solid #560bad;
+    background-color: #f1faee;
+    margin: 15px 100px;
+    padding: 15px;
+}
